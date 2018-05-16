@@ -1,6 +1,8 @@
 # pornScripts
 sis001大于特定数值文章评论数过滤+html生成
 
+python3.x 环境
+
 依赖包：
 
 jinja2
