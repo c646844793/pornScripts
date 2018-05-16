@@ -33,11 +33,11 @@ def process(pagenum, x):
 
     THIS_DIR = os.path.dirname(os.path.abspath(__file__))
     env = Environment(loader=FileSystemLoader(THIS_DIR))
-    template = env.get_template('template/sis.template')
+    template = env.get_template('sis.template')
 
     content = template.render(wanted=wanted)
 
-    filename = 'template/sisNovels-100-%d.html'
+    filename = 'sisNovels-100-%d.html'
     fp = open(filename % (x+1), 'w', encoding="utf-8")
     fp.write(content)
     fp.close()
