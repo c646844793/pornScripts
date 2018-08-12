@@ -22,7 +22,7 @@ python3.x 环境
 
 python3.x 环境
 
-依赖包'requirements.txt'：
+依赖包`requirements.txt`：
 
 + beautifulsoup4==4.5.3
 
